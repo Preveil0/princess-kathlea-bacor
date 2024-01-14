@@ -1,0 +1,154 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-color: #0093E9;
+    background-image: -webkit-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: -moz-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: -o-linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+
+header {
+    background-color: #0e1f447c;
+    color: rgb(22, 12, 12);
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 0px; 
+    border-bottom: rgba(1, 7, 14, 0.111) solid 6px;
+}
+
+.info-logo{
+    position:absolute;
+    padding-top: 1px;
+    margin-right:100%;
+}
+
+
+
+.fnav, .snav {
+    padding: 0.5em;
+    display:flex;
+}
+.fnav ul, .snav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.fnav li, .snav li {
+    display: inline;
+    margin-right: 10px;
+}
+.fnav a, .snav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.fnav a:hover{
+    background-color: antiquewhite;
+    transition: .5s;
+    padding: 3px;
+}
+
+
+
+.snav{
+    position: absolute;
+    left: 80%;
+    top: 30px;
+    font-size: 1px;
+    border: solid rgba(14, 9, 69, 0.073);
+    padding: 5px;
+}
+.snav li{
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+}
+.snav p:hover{
+    background-color: rgb(31, 139, 201);
+    transition: .5s;
+    padding: 5px;
+    overflow:hidden;
+}
+
+main {
+    padding: 20px;
+}
+
+.mission-vision {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.strands{
+    font-size: larger;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.strands h3{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5px;
+}
+.strands p{
+    margin-left: 1.8rem;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.strands h4{
+    margin-left: 5rem;
+    margin-bottom: 0;
+}
+.strands li{
+    margin-left: 6rem;
+}
+
+.enroll{
+    text-align: center;
+}
+.enroll h1{
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+.enroll h3{
+    margin-top: 0px;
+}
+.enroll h4{
+    text-align: left;
+    margin-left: 20rem;
+}
+b{
+    font-weight: bolder;
+}
+.enroll a{
+    color:#333;
+}
+.enroll a:hover{
+    background-color: rgba(255, 228, 196, 0.742);
+    transition-duration: .5s;
+    padding: 3px;
+}
+
+footer {
+    background-color: #3333335b;
+    color: rgba(255, 255, 255, 0.818);
+    text-align: center;
+    padding: 1em;
+}
+footer a{
+    color:#80D0C7;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: rgb(8, 72, 90);
+    transition: .5s;
+    border-radius: 10%;
+    padding: 5px;
+}
